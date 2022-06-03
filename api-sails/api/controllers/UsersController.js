@@ -8,7 +8,7 @@
 module.exports = {
 
     getAllUsers: async function (req, res){
-        var misUsuarios = await User.find();
+        var misUsuarios = await Users.find();
         res.ok(misUsuarios);
     }
 
