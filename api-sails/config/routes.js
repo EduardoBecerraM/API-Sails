@@ -24,7 +24,10 @@ module.exports.routes = {
   'POST /usuarios': 'UsersController.post',
   'PUT /usuarios': 'UsersController.put',
   'DELETE /usuarios': 'UsersController.delete',
-  //'GET /articulos': 'ArticulosController.getAllArticulos'
+  'GET /articulos': 'ArticulosController.getAllArticulos',
+  'POST /articulos': 'ArticulosController.post',
+  'PUT /articulos': 'ArticulosController.put',
+  'DELETE /articulos': 'ArticulosController.delete',
 
 
   /***************************************************************************
