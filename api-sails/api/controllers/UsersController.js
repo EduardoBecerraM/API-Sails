@@ -28,7 +28,7 @@ module.exports = {
   },
 
   delete: async function (req, res) {
-    var id = req.params('id');
+    var id = req.param('id');
     var resUsers = await Users.destroy({ id: id }).fetch();
     return res.ok(resUsers);
   },
