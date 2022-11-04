@@ -1,2 +1,2 @@
 # API-Sails
-Crear una API que utiliza Sails
+Creación de una API con el marco de aplicación web Sails de modelo MVC.
